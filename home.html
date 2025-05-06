@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<style>
+.swiper {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+</style>
+</head>
+<body>
+
+    <section id="navbar"> 
+          
+        <nav>
+            <ul>
+                <li ><a href=""><img src="https://cdn6.agoda.net/images/kite-js/logo/agoda/color-default.svg" alt="" height="40vh"></a></li>
+                <li data-aos="fade-down" data-aos-duration="1000"><a href="home.html">Home</a></li>
+                <li data-aos="fade-down" data-aos-duration="1300"><a href="">Rooms</a></li>
+                <li data-aos="fade-down" data-aos-duration="1500"><a href="">Our Faclities</a></li>
+                <li data-aos="fade-down" data-aos-duration="1800"><a href="crud.html">Your Bookings</a></li>
+                <li data-aos="fade-down" data-aos-duration="2100"><a href="login.html">Login &emsp;&emsp; </a><a href="signUp.html" class="sign"> Create Account</a></li>
+            </ul>
+        </nav>
+    </section>
+  
+
+    <section id="home">
+
+      <video src="mixkit-hotel-room-with-breakfast-served-4019-hd-ready.mp4" autoplay muted loop  width="100%"></video>
+      <!-- <h1>Urgench hotels & places to stay
+        Search to compare prices and discover great deals with free cancellation</h1> -->
+         <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="./IMAGES/agota.png" alt="" ></div>
+      <div class="swiper-slide"><img src="./IMAGES/agota1.png" alt=""></div>
+      <div class="swiper-slide"><img src="./IMAGES/agota6.png" alt=""></div>
+      <div class="swiper-slide"><img src="./IMAGES/agota7.png" alt=""></div>
+      <div class="swiper-slide"><img src="./IMAGES/agota8.png" alt=""></div>
+      <div class="swiper-slide"><img src="./IMAGES/agota9.png" alt=""></div>
+    </div>
+    <!-- <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div> -->
+  </div>
+    
+    </section>
+
+
+<br><br>
+    <section id="mainbox">
+        <h2>Hotels in Princeville (HI)</h2>
+        <br><br>
+        <div id="box">
+          <div  data-aos="fade-up-left" data-aos-duration="1000" class="box1">DATA 1</div>
+          <div  data-aos="fade-up-right" data-aos-duration="1000" class="box2" >DATA 2</div>
+          <div   data-aos="fade-up-left" data-aos-duration="1000" class="box3" >DATA 3</div>
+          <div   data-aos="fade-up-right" data-aos-duration="1000" class="box4" >DATA 4</div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="swiper.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="type.js"></script>
+</body>
+</html>

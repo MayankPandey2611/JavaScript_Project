@@ -1,0 +1,14 @@
+{
+  "Hotel": [
+    {
+      "id": "96df",
+      "name": "om",
+      "age": "21",
+      "checkin": "2025-05-07",
+      "checkout": "2025-05-14",
+      "city": "Goa",
+      "people": "2",
+      "price": 1000
+    }
+  ]
+}

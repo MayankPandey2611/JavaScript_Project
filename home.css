@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: white;
+   
+}
+
+#navbar{
+    margin-top: 2%;
+    width: 100%;
+    height: 10vh;
+background-color: white;
+}
+
+
+#navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+ color: rgb(23, 23, 27);
+ font-weight: bold;
+ font-size: 20px;
+}
+
+#navbar ul li a:hover{
+    color: rgb(9, 102, 243);
+
+}
+#navbar .sign:hover{
+    color: rgb(9, 102, 243);
+    border:2px solid black;
+    background-color: azure;
+}
+
+#navbar .sign{
+    background-color: white;
+    color: black;
+    width: 150px;
+    height:45px;
+    font-size: 14px;
+    border: 2px solid rgb(86, 104, 132);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+padding: 10px;
+font-weight: bolder;
+font-size: 15px;
+}
+
+
+
+#home {
+    width: 100%;
+    /* height: 700px; */
+    /* background-repeat: no-repeat; */
+    /* background-image: url(https://tse1.mm.bing.net/th?id=OIP.phATIQWSl0faEXVixpiveAHaDn&pid=Api&P=0&h=180); */
+    /* background-size: cover; */
+    /* float: left; */
+    /* text-align: center; */
+    /* border: 1px solid black; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* padding-left: 20px; */
+    /* background: url(https://tse1.mm.bing.net/th?id=OIP.phATIQWSl0faEXVixpiveAHaDn&pid=Api&P=0&h=180) no-repeat center center fixed; */
+    /* width: 100%;
+    float: left;
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.phATIQWSl0faEXVixpiveAHaDn&pid=Api&P=0&h=180);
+    height: auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat; */
+}
+#mainbox{
+    display: flex;
+    justify-content: center;
+}
+
+#mainbox h2{
+    display: flex;
+    justify-content: center;
+}
+
+#box{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+}
+
+
+#box .box1{
+    width: 50%;
+    height: 40vh;
+    border: 1px solid black;
+}
+
+#box .box2{
+    width: 50%;
+    height: 40vh;
+    border: 1px solid black;
+}
+
+#box .box3{
+    width: 50%;
+    height: 40vh;
+    border: 1px solid black;
+}
+
+#box .box4{
+    width: 50%;
+    height: 40vh;
+    border: 1px solid black;
+}
