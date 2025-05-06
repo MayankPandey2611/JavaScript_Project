@@ -9,6 +9,36 @@
       "city": "Goa",
       "people": "2",
       "price": 1000
+    },
+    {
+      "id": "06f4",
+      "name": "piyush",
+      "age": "19",
+      "checkin": "2025-05-11",
+      "checkout": "2025-05-22",
+      "city": "Delhi",
+      "people": "4",
+      "price": 1000
+    },
+    {
+      "id": "b4c8",
+      "name": "mayank pandey",
+      "age": "22",
+      "checkin": "2025-05-07",
+      "checkout": "2025-05-21",
+      "city": "Goa",
+      "people": "3",
+      "price": 1000
+    },
+    {
+      "name": "sid",
+      "age": "25",
+      "checkin": "2025-05-14",
+      "checkout": "2025-05-21",
+      "city": "Goa",
+      "people": "3",
+      "price": 1000,
+      "id": "7b1d"
     }
   ]
 }
