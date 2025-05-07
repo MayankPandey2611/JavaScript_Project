@@ -86,6 +86,15 @@ font-size: 15px;
     background-size: 100% 100%;
     background-repeat: no-repeat; */
 }
+
+#home h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: darkolivegreen;
+  
+    font-weight: bolder;
+}
 #mainbox{
     display: flex;
     justify-content: center;
@@ -98,8 +107,9 @@ font-size: 15px;
 
 #box{
     width: 100%;
-    height: 200vh;
+    height: 100vh;
     display: flex;
+    justify-content: space-evenly;
 }
 
 
@@ -125,4 +135,10 @@ font-size: 15px;
     width: 50%;
     height: 40vh;
     border: 1px solid black;
+}
+
+#footer-section{
+    width: 100%;
+    height: 40vh;
+    background-color: black;
 }
