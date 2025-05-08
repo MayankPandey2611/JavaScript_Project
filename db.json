@@ -35,10 +35,20 @@
       "age": "25",
       "checkin": "2025-05-14",
       "checkout": "2025-05-21",
-      "city": "Goa",
-      "people": "3",
+      "city": "Bhopal",
+      "people": "2",
       "price": 1000,
       "id": "7b1d"
+    },
+    {
+      "id": "9507",
+      "name": "mayank pandey",
+      "age": "21",
+      "checkin": "2025-05-10",
+      "checkout": "2025-05-13",
+      "city": "Goa",
+      "people": "5",
+      "price": 1000
     }
   ]
 }

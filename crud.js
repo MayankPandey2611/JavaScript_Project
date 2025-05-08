@@ -1,6 +1,7 @@
 
 let fetchdata = async () => {
 
+    try{
     let url = "http://localhost:3000/Hotel";
 
     
@@ -27,6 +28,11 @@ let fetchdata = async () => {
                 </tr>
             `
         });
+    }
+    catch(error){
+        console.log("Server Issue");
+        
+    }
     } 
 
 
@@ -42,7 +48,6 @@ let Del = async (id) => {
 //         alert("Please enter a valid name and number of people.");
 //         return false;
 //     }
-//    confirm(`Dear ${display} Your Booking Amount is ${book*1000}`) ;
 
 
 
@@ -78,9 +83,11 @@ let booking = ()=>{
         })
     })
 
+   confirm(`Dear ${display} Your Booking Amount is ${book*1000}`) ;
 
 location.href="crud.html"
    return false;
+   
 }
 
 let form =async (id)=>{

@@ -23,11 +23,11 @@ body{
 
 #signin{
     display: grid;
-    border: 2px solid white;
+    border: 2px solid grey;
     padding: 2%;
-    /* background-color: grey; */
+    background-color: black;
     border-radius: 7%;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(10px);
 }
 
 
