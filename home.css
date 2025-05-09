@@ -16,6 +16,8 @@ body{
    
 }
 
+
+
 #navbar{
     margin-top: 2%;
     width: 100%;
@@ -124,18 +126,33 @@ font-size: 15px;
     width: 100%;
     height: 60vh;
     border: 1px solid black;
+  
 }
-
 #box .box3{
     width: 80%;
     height: 60vh;
     border: 1px solid black;
+    background-color:darkgoldenrod;
 }
 
-#box .box4{
+#Box .box4{
     width: 80%;
     height: 60vh;
     border: 1px solid black;
+}
+
+#Box .box5{
+    width: 80%;
+    height: 60vh;
+    border: 1px solid black;
+    background-color:darkgoldenrod;
+}
+
+#Box .box6{
+    width: 80%;
+    height: 60vh;
+    border: 1px solid black;
+    
 }
 
 #footer-section{
