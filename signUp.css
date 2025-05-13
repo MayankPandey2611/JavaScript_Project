@@ -18,16 +18,16 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: darkgrey; */
+    
 }
 
 #signin{
     display: grid;
-    border: 2px solid grey;
+    border: 1px solid grey;
     padding: 2%;
-    background-color: black;
+    background-color: transparent;
     border-radius: 7%;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
 }
 
 
@@ -38,23 +38,23 @@ body{
     height:45px;
     font-size: 14px;
     border: 0px solid red;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 
 #signin input{
     width: 350px;
     height: 55px;
-    background-color: transparent;
+    background-color: #ebebeb06;
     color:white;
-   border: 2px solid white;
-   border-top-left-radius: 30px;
-   border-top-right-radius: 30px;
-   border-bottom-left-radius: 30px;
-   border-bottom-right-radius: 30px;
+   border: 1px solid rgba(228, 223, 223, 0.042);
+   border-top-left-radius: 2px;
+   border-top-right-radius: 2px;
+   border-bottom-left-radius: 2px;
+   border-bottom-right-radius: 2px;
    
 }
 
@@ -71,4 +71,9 @@ body{
 
 #signin p{
     color: white;
+}
+
+#signin i{
+    color: rgb(254, 43, 78);
+    font-size: 22px;
 }

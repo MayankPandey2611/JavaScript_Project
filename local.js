@@ -87,11 +87,13 @@ let OTP = () => {
 
     if (hnum != "" && hnum.length == 10 && hnum == localnum) {
         alert(ans)
+        return false
     }
     else {
         document.querySelector("#error").innerHTML = "please enter valid number"
+        return false
     }
-
+return false
 }
 
 
@@ -109,11 +111,13 @@ let Submit = () => {
         // show.innerHTML = `Welcome ${display} to our website`
         location.href = "home.html"
         alert(`Welcome ${display} To Our Website`)
+        return false
     }
     else {
         alert("Wrong OTP")
+        return false
     }
-
+return false
 }
 
 

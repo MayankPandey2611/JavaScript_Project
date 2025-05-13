@@ -1,14 +1,35 @@
 
 let fetchdata = async () => {
 
-    try{
+    
     let url = "http://localhost:3000/Hotel";
 
     
         let res = await fetch(url, { method: "GET" });
         let data = await res.json();
         console.log(res);
+        datashow(data);
+}
 
+
+let Search =async()=>{
+    let searchinput = document.querySelector("#search").value.toLowerCase()
+
+    let url = "http://localhost:3000/Hotel";
+
+        let res = await fetch(url, { method: "GET" });
+        let data = await res.json();
+   
+        let Filter = data.filter( (e)=>{
+            return e.name.toLowerCase().includes(searchinput)  || e.city.toLowerCase().includes(searchinput)
+        })
+
+        datashow(Filter); 
+
+}
+
+
+let datashow = (data)=>{
         let DATA = document.querySelector("#datashow");
         DATA.innerHTML = ""; 
     
@@ -19,20 +40,20 @@ let fetchdata = async () => {
                     <td>${e.name}</td>
                     <td>${e.age}</td>
                     <td>${e.city}</td>
-                    <td>${e.people}</td>
+                    <td>&emsp;&emsp;&emsp;${e.people}</td>
                     <td>${e.price * e.people}</td>
                     <td>${e.checkin} </td>
                     <td>${e.checkout} </td>
-                    <td onclick="Del('${e.id}')">Cancel</td>
-                    <td onclick="form('${e.id}')">Update</td>
+                    <td onclick="Del('${e.id}')">&emsp;&emsp;&emsp;<i class="fa-solid fa-trash" style="color:red";></i></td>
+                    <td onclick="form('${e.id}')">&emsp;Edit</td>
                 </tr>
             `
         });
-    }
-    catch(error){
-        console.log("Server Issue");
+
+    // catch(error){
+    //     console.log("Server Issue");
         
-    }
+    // }
     } 
 
 
@@ -83,11 +104,10 @@ let booking = ()=>{
         })
     })
 
-   confirm(`Dear ${display} Your Booking Amount is ${book*1000}`) ;
-
+ 
 location.href="crud.html"
    return false;
-   
+
 }
 
 let form =async (id)=>{

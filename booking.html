@@ -5,20 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="booking.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body  >
+<body id="booking" >
     
     <section id="booking-page">
-        <h1>Booking Page</h1>
-        <form>
+        <h1>&emsp;&emsp;&emsp;&emsp;Booking Page</h1><br>
+        <form align="center">
             <input type="text" placeholder="&emsp; Enter Your Name" id="name"><br><br>
             <input type="number" placeholder="&emsp; Enter Your Age" id="age"><br><br>
             <!-- <input type="number" placeholder="&emsp; Enter Your Number" id="number"><br><br> -->
             <!-- <input type="email" placeholder="&emsp; Enter Your Email" id="email"><br><br> -->
             <input type="number"  placeholder="&emsp; Enter No's Of People" id="people" ><br><br>
-            <input type="date"  value="checkIn" id="checkIn" ><br><br>
-            <input type="date" value="checkOut"  id="checkOut" ><br><br>
-            Select City <select  name="" id="city"  >
+            <input type="date" style="color: rgb(89, 87, 87);" value="&emsp;checkIn" id="checkIn" ><br><br>
+            <input type="date" style="color: rgb(83, 81, 81);" value="checkOut"  id="checkOut" ><br><br>
+            Select City :<select  name="" id="city"  >
                 <option value="Bhopal">Bhopal</option>
                 <option value="Indore">Indore</option>
                 <option value="Goa">Goa</option>
@@ -26,10 +29,12 @@
                 <option value="Delhi">Delhi</option>
                 <option value="Rewa">Rewa</option>
             </select><br><br>
-            <input type="submit" name="" id="" value="Book" onclick="return booking()">
+
+            <input type="submit" name="" class="send" value="Book" onclick="return booking()">
         </form>
     </section>
 
     <script src="crud.js"></script>
+ 
 </body>
 </html>

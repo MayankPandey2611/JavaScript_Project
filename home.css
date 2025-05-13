@@ -35,18 +35,24 @@ background-color: white;
 #navbar ul li a{
     text-decoration: none;
  color: rgb(23, 23, 27);
- font-weight: bold;
+ font-weight: bolder;
  font-size: 20px;
 }
 
+#navbar i{
+    color: darkolivegreen;
+    font-weight: bolder;
+    font-size: 23px;
+}
+
 #navbar ul li a:hover{
-    color: rgb(9, 102, 243);
+    color: rgba(36, 132, 4, 0.997);
 
 }
 #navbar .sign:hover{
-    color: rgb(9, 102, 243);
+    color: rgb(241, 242, 244);
     border:2px solid black;
-    background-color: azure;
+    background-color: darkolivegreen;
 }
 
 #navbar .sign{
@@ -107,60 +113,107 @@ font-size: 15px;
 
 #box{
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: space-between;
+    gap: 40px;
    
 }
 
+#Box{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
 
 #box .box1{
     width: 80%;
     height: 60vh;
-    border: 1px solid black;
-    background-color:darkgoldenrod;
+    border: 0px solid black;
+    background-color:rgb(84, 84, 84);
     gap: 10px;
 }
 
+#box .send{
+        background-color:  rgb(71, 100, 20);
+    color: rgba(255, 255, 255, 0.925);
+    width: 150px;
+    height:45px;
+    font-size: 19px;
+    border: 0px solid red;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+
+#Box .send{
+            background-color:   rgb(72, 100, 22);
+    color: rgba(255, 255, 255, 0.925);
+    width: 150px;
+    height:45px;
+    font-size: 19px;
+    border: 0px solid red;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
 #box .box2{
-    width: 100%;
+    width: 80%;
     height: 60vh;
-    border: 1px solid black;
+    border: 0px solid black;
+    background-color:rgb(84, 84, 84);
   
 }
 #box .box3{
     width: 80%;
     height: 60vh;
-    border: 1px solid black;
-    background-color:darkgoldenrod;
+    border: 0px solid black;
+    background-color:rgb(84, 84, 84);
 }
 
 #Box .box4{
     width: 80%;
     height: 60vh;
-    border: 1px solid black;
+    border: 0px solid black;
+    background-color:rgb(84, 84, 84);
+
 }
 
 #Box .box5{
     width: 80%;
     height: 60vh;
-    border: 1px solid black;
-    background-color:darkgoldenrod;
+    border: 0px solid black;
+    background-color:rgb(84, 84, 84);
 }
 
 #Box .box6{
     width: 80%;
     height: 60vh;
-    border: 1px solid black;
+    border: 0px solid black;
+    background-color:rgb(84, 84, 84);
+
     
 }
 
 #footer-section{
     width: 100%;
     height: 40vh;
-    background-color: black;
+    background-color: rgb(42, 56, 18);
 }
-
+#footer-section p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    font-size: 15px;
+    padding-top: 3%;
+}
 #map h1{
     display: grid;
     justify-content: center;
@@ -169,3 +222,33 @@ font-size: 15px;
     color: darkolivegreen;
     font-weight: bolder;
 }
+
+
+/* .social-links i{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 5rem;    
+    height: 5rem;
+    background-color:transparent;
+    border: 0.1rem solid green;
+    border-radius: 5%;
+    color: darkolivegreen;
+    margin: 0 15px;
+    font-size: 1.5rem;
+    transition: 0.2s linear;
+margin-top: 2%;
+margin-left: 16%;
+
+}
+
+.social-links a{
+    width:1px;
+}
+
+.social-links i:hover{
+    scale: 1.3;
+    color: black;
+    background-color: rgb(140, 207, 4);
+    filter: drop-shadow(0 0 10px darkolivegreen);
+} */

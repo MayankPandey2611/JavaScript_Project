@@ -17,24 +17,25 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    /* background-color: darkgray; */
 }
 
 
 #loginpage{
     display: grid;
-    border: 2px solid rgba(207, 14, 14, 0.949);
+    border: 2px solid rgba(82, 80, 80, 0.949);
     padding: 2%;
-    background-color: grey;
+    background-color: transparent;
     border-radius: 5%;
+      backdrop-filter: blur(5px);
 }
 
 #loginpage input{
     width: 350px;
     height: 55px;
-    background-color: #ebebebd8;
-    color:black;
-   border: 1px solid white;
+    background-color: #ebebeb06;
+    color:wheat;
+   border: 1px solid rgba(255, 255, 255, 0.008);
    border-top-left-radius: 30px;
    border-top-right-radius: 30px;
    border-bottom-left-radius: 30px;
@@ -42,7 +43,7 @@ body{
 }
 
 #loginpage .send{
-    background-color: rgb(197, 42, 42);
+    background-color: rgb(52, 42, 197);
     color: white;
     width: 150px;
     height:45px;
@@ -56,5 +57,17 @@ body{
 
 #loginpage p a{
     text-decoration: none;
-    color: red;
+    color: rgb(0, 123, 255);
+}
+
+#loginpage h1{
+    color: white;
+}
+
+#loginpage p{
+    color: whitesmoke;
+}
+
+#loginpage i{
+    color: rgb(232, 232, 237);
 }

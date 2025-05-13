@@ -17,24 +17,26 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    
 }
 
 
 #home{
+    /* width: 500px; */
     display: grid;
-    border: 1px solid black;
+    border: 2px solid rgba(82, 80, 80, 0.949);
     padding: 2%;
-    background-color: grey;
+    background-color: transparent;
     border-radius: 5%;
+    backdrop-filter: blur(2px);
 }
 
 #home input{
     width: 350px;
     height: 55px;
-    background-color: #ebebebd8;
+    background-color: #eff0e903;
     color:black;
-   border: 1px solid white;
+   border: 1px solid rgba(156, 152, 152, 0.156);
    border-top-left-radius: 30px;
    border-top-right-radius: 30px;
    border-bottom-left-radius: 30px;
@@ -42,8 +44,8 @@ body{
 }
 
 #home .btn{
-    background-color:  rgb(197, 42, 42);
-    color: white;
+    background-color:  rgb(132, 8, 76);
+    color: rgba(255, 255, 255, 0.925);
     width: 150px;
     height:45px;
     font-size: 14px;
@@ -52,10 +54,17 @@ body{
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    margin-left: 27%;
+    
 }
 
 #home p{
     font-size: 25px;
+     color: white;
 
 }
+
+#home i{
+    color:  rgba(229, 9, 31, 0.94);
+    font-size: 20px;
+}
+

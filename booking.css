@@ -18,39 +18,45 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: darkgrey; */
+    background-image: url(./IMAGES/agota.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
 }
 
 #booking-page{
     display: grid;
     border: 2px solid grey;
     padding: 2%;
-    background-color: black;
+    background-color: transparent;
     border-radius: 7%;
     backdrop-filter: blur(10px);
 }
 
 
-#signin .send{
-    background-color: brown;
-    color: white;
+#booking-page .send{
+    background-color: rgb(241, 194, 8);
+    color: black;
     width: 150px;
     height:45px;
-    font-size: 14px;
+    font-size: 18px;
     border: 0px solid red;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
-
+#booking-page .send:hover{
+    color: black ;
+    background-color: rgb(237, 219, 154);
+}
 
 #booking-page input{
     width: 350px;
     height: 55px;
     background-color: transparent;
-    color:white;
-   border: 2px solid white;
+    color:black;
+   border: 1px solid rgb(56, 54, 54);
    border-top-left-radius: 30px;
    border-top-right-radius: 30px;
    border-bottom-left-radius: 30px;
@@ -60,15 +66,23 @@ body{
 
 
 
-#signin p a{
+#booking-page p a{
     text-decoration: none;
     color: red;
 }
 
-#signin h1{
+#booking-page h1{
+    color: rgb(17, 16, 16);
+
+}
+
+#booking-page p{
     color: white;
 }
 
-#signin p{
-    color: white;
+#booking-page select{
+    color: black;
+    font-weight: 700;
+    background-color: transparent;
+
 }

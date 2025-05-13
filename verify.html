@@ -5,29 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="verify.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body id="verify">
     
     <section id="home">
 
         <!-- <a href="signUp.html"></a> -->
     
-        
-    
-        <p>&emsp;&emsp;Verify Your Number</p> <br>
-    
+        <p>&emsp;&emsp;&emsp;Verify Your Number</p> <br>
+    <form align="center">
         <h4 id="error"></h4>
     
-        <input type="number" placeholder="&emsp;Enter Your Number" id="num"> <br>
+        <input type="number" placeholder="&emsp;Enter Your Number" id="num">&emsp;<i class="fa-solid fa-phone"></i><br><br>
     
-        <button  onclick="OTP()" class="btn">Send OTP</button> <br>
+        <button  onclick="return OTP()" class="btn">Send OTP</button> <br><br>
     
-        <input type="number" placeholder="&emsp;Enter OTP" id="otp"> <br>
+        <input type="number" placeholder="&emsp;Enter OTP" id="otp">&emsp;<i class="fa-solid fa-comment"></i><br><br>
     
-        <input type="submit" onclick="Submit()" value="Verify" class="btn">
-    
+        <input type="submit" onclick="return Submit()" value="Verify" class="btn">
+    </form>
     </section>
 
     <script src="local.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+    <script src="vanta2.js"></script>
+   
 </body>
 </html>
