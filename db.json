@@ -39,6 +39,16 @@
       "city": "Kashmir",
       "people": "5",
       "price": 1000
+    },
+    {
+      "name": "mayank pandey",
+      "age": "22",
+      "checkin": "2025-05-23",
+      "checkout": "2025-05-24",
+      "city": "Indore",
+      "people": "3",
+      "price": 1000,
+      "id": "f34d"
     }
   ]
 }

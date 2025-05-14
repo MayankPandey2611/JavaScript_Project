@@ -126,3 +126,14 @@ return false
 //     SHOW.innerHTML = `Welcome ${display} To Our Website`
 // }
 
+let send = ()=>{
+    let Text = document.querySelector(".text").value
+    if(Text!=""){
+ alert("Thanks For Your Feedback!")
+ 
+//  return false;
+
+    }
+   Text.innerHTML="";
+//    return false;
+}
