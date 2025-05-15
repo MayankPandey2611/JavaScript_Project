@@ -102,7 +102,7 @@ font-size: 15px;
     color: darkolivegreen;
     font-weight: bolder;
 }
-
+/* 
 #mainbox h2{
     display: grid;
     justify-content: center;
@@ -199,8 +199,96 @@ font-size: 15px;
     background-color:rgb(84, 84, 84);
 
     
+} */
+
+
+#ROOMS {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
 }
 
+#ROOMS h1 {
+  font-size: 40px;
+  color: darkolivegreen;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  height: 52vh;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.card h2 {
+  font-size: 20px;
+  color: #333;
+  margin: 15px 0 5px;
+}
+
+.card h3 {
+  font-size: 18px;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+
+.card .send{
+            background-color:   rgb(72, 100, 22);
+    color: rgba(255, 255, 255, 0.925);
+    width: 150px;
+    height:40px;
+    font-size: 19px;
+    border: 0px solid red;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+@media (max-width: 768px) {
+  #ROOMS h1 {
+    font-size: 28px;
+  }
+
+  .card h2 {
+    font-size: 18px;
+  }
+
+  .card h3 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
 #footer-section{
     width: 100%;
     height: 40vh;
@@ -229,7 +317,7 @@ font-size: 15px;
 }
 
 .social-links a{
-    text-decoration: underline;
+    text-decoration: none;
     color: darkgrey;
     gap: 0px;
     font-size: 18px;
@@ -245,15 +333,15 @@ font-size: 15px;
 }
 
 #footer-section .text{
-    width: 33%;
+    width: 38%;
     height: 6vh;
-    background-color: darkkhaki;
+    background-color: rgb(211, 210, 193);
     font-size: 18px;
 }
 
 i{
     color: darkgray;   
-    font-size: 20px;
+    font-size: 24px;
 }
 button{
     width: 10%;
