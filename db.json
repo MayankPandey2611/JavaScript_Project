@@ -21,14 +21,14 @@
       "price": 1000
     },
     {
-      "id": "b4c8",
       "name": "mayank pandey",
       "age": "22",
       "checkin": "2025-05-07",
       "checkout": "2025-05-21",
-      "city": "Goa",
+      "city": "Kashmir",
       "people": "3",
-      "price": 1000
+      "price": 1000,
+      "id": "b4c8"
     },
     {
       "id": "91bd",

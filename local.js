@@ -109,7 +109,7 @@ let Submit = () => {
         // let box = document.querySelector("#home")
         // box.style.display="none"
         // show.innerHTML = `Welcome ${display} to our website`
-        location.href = "home.html"
+        location.href = "index.html"
         alert(`Welcome ${display} To Our Website`)
         return false
     }
