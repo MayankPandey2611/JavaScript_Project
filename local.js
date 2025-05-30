@@ -3,7 +3,6 @@
 let signup = () => {
 
     let signfname = document.querySelector("#sname").value
-    // let signlname = document.querySelector("#lname").value
     let signnum = document.querySelector("#number1").value
     let signemail = document.querySelector("#email").value
     let signpass = document.querySelector("#password").value
@@ -45,7 +44,7 @@ let signup = () => {
 
 
     localStorage.setItem("name", signfname)
-    // localStorage.setItem("lastname",signlname)
+  
     localStorage.setItem("number", signnum)
     localStorage.setItem("email", signemail)
     localStorage.setItem("password", signpass)
@@ -70,7 +69,7 @@ let login = () => {
     }
 
     else {
-        // document.querySelector("#err").innerHTML = "please enter valid id and password"
+     
         alert("please enter valid id and password")
     }
 
@@ -98,17 +97,13 @@ return false
 
 
 let display = localStorage.getItem("name")
-// let show = document.querySelector("#Show")
+
 
 let Submit = () => {
 
     let hotp = document.querySelector("#otp").value
 
     if (hotp == ans) {
-        // alert(`Welcome ${display} to Our Website`)
-        // let box = document.querySelector("#home")
-        // box.style.display="none"
-        // show.innerHTML = `Welcome ${display} to our website`
         location.href = "index.html"
         alert(`Welcome ${display} To Our Website`)
         return false
@@ -121,19 +116,14 @@ return false
 }
 
 
-// let welcome = ()=>{
-//     let SHOW = document.querySelector("#show")
-//     SHOW.innerHTML = `Welcome ${display} To Our Website`
-// }
-
 let send = ()=>{
     let Text = document.querySelector(".text").value
     if(Text!=""){
  alert("Thanks For Your Feedback!")
  
-//  return false;
+
 
     }
    Text.innerHTML="";
-//    return false;
+
 }

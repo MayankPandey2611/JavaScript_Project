@@ -50,10 +50,6 @@ let datashow = (data)=>{
             `
         });
 
-    // catch(error){
-    //     console.log("Server Issue");
-        
-    // }
     } 
 
 
@@ -65,17 +61,11 @@ let Del = async (id) => {
     fetchdata(); // Refresh after delete
 };
 
-//     if (!display || isNaN(book) || book <= 0) {
-//         alert("Please enter a valid name and number of people.");
-//         return false;
-//     }
-
 
 
 let booking = ()=>{
 
     let book = document.querySelector("#people").value
-    // let number = document.querySelector("#number").value
     let city = document.querySelector("#city").value
     let checkin = document.querySelector("#checkIn").value
     let checkout = document.querySelector("#checkOut").value
@@ -146,7 +136,6 @@ let update  = (id)=>{
     let url = `http://localhost:3000/Hotel/${id}`;
  
     let book = document.querySelector("#people1").value
-    // let number = document.querySelector("#number").value
     let city = document.querySelector("#city").value
     let checkin = document.querySelector("#checkIn1").value
     let checkout = document.querySelector("#checkOut1").value
